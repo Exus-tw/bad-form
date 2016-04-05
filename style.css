@@ -1,0 +1,49 @@
+form {
+  border: 1px black solid;
+  padding: 1em;
+  background: white;
+  outline: none;
+  max-width: 600px;
+}
+
+h4 {
+  margin: 0px;
+  color: #888;
+}
+
+h1 {
+  font-family: 'Arial', sans-serif;
+  font-size: 25px;
+}
+
+input[type="text"] {
+  width: 50%;
+  padding: 5px;
+}
+
+input[type="button"] {
+  font-size: 3em;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.button1 {
+  font-family: 'Times New Roman', serif;
+}
+
+.button2 {
+  font-family: 'Georgia', sans-serif;
+}
+
+fieldset {
+  width: 70%;
+  border: none;
+}
+
+* {
+  margin-top: 15px;
+}
+
+.left {
+  right: 100px;
+}
