@@ -47,3 +47,9 @@ fieldset {
 .left {
   right: 100px;
 }
+
+span.obrigatorio {
+  color: red;
+  vertical-align: text-top;
+  font-size: smaller;
+}
