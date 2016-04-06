@@ -3,7 +3,7 @@ form {
   padding: 1em;
   background: white;
   outline: none;
-  max-width: 600px;
+  max-width: 700px;
 }
 
 h4 {
@@ -17,7 +17,7 @@ h1 {
 }
 
 input[type="text"] {
-  width: 50%;
+  width: 30%;
   padding: 5px;
 }
 
@@ -36,7 +36,7 @@ input[type="button"] {
 }
 
 fieldset {
-  width: 70%;
+  width: 90%;
   border: none;
 }
 

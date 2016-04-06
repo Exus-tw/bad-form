@@ -17,10 +17,9 @@
     <fieldset>
 
       <label for="name">Nome:</label>
-      <input type="text" name="nome" />
-      <br>
-      <input class="left" type="text" name="surname" placeholder="www.sobrenome.com" />
-      <label for="surname" style="float:left;">Sobrenome:</label>
+      <input type="text" name="nome" placeholder="Nome"/>
+      <label for="surname">Sobrenome:</label>
+      <input class="left" type="text" name="surname" placeholder="Sobrenome" />
       <br>
       
       <label for="idade">Email</label>
@@ -37,14 +36,14 @@
       <input type="text" name="portfolio" />
       <br><br>
       
-            <label for="cidade">Cidade:</label>
-            <select name="field_id_1928" id="field_id_0048">
-              <option value="1">Porto Alegre</option>
-                <option value="2">Gravataí</option>
-           <option value="3">Cachoeirinha</option>
-                    <option value="3">Alabama</option>
-                    <option value="4">Johannesburg</option>
-            </select>
+        <label for="cidade">Cidade:</label>
+        <select name="field_id_1928" id="field_id_0048">
+          <option value="1">Porto Alegre</option>
+            <option value="2">Gravataí</option>
+       <option value="3">Cachoeirinha</option>
+                <option value="3">Alabama</option>
+                <option value="4">Johannesburg</option>
+        </select>
       
       <label for="idade">Idade:</label>
       <select value="Idade" name="idade">
@@ -56,12 +55,14 @@
       </select>
       <br style="font-size: 20px">
       <br>
-      <fieldset>
-        <input type="radio" name="sexo" value="Masculino" checked="checked"/>Masculino
-              <input type="radio" name="sexo" value="Masculino" /> Feminino
-      </fieldset>
+
+        <label for="sexo">Sexo</label><br>
+        <span>Masculino</span>
+        <input type="radio" name="sexo" value="Masculino" checked="checked"/>
+        <span>Feminino</span>
+        <input type="radio" name="sexo" value="Masculino" />
       
-      <label for="campox" style="font-weight: italic;"><b>Religião:</b></label>
+      <label for="campox" style="font-weight: italic; display: block;"><b>Religião:</b></label>
       <select value="religiao" default="catolica" name="campox">
         <option value="catolica">Catolica</option>
         <option value="judaica">Judaica</option>
@@ -73,21 +74,18 @@
     <br><label for="linkedin">Linkedin:</label>
         <input type="text" name="linkedin" />
         <br>
-        <br>
-        <input type="reset" value="Limpar Campos" />
-        <input type="button" value="Cancelar" />
-        <input type="button" value="Enviar" />
-      </fieldset>
-      <br> 
         <label for="outros">Outros</label>
         <input type="email" disabled/>
-      <fieldset>
+        <fieldset>
         <input checked type="checkbox" name="checkbox1" />
         <label for="checkbox2" class="button2">Receber notícias para próximas vagas</label>
         
       </fieldset>
-      <hr>
-      <input type="button" value="Cancelar" />
+        <br>
+        <input type="reset" value="Limpar Campos" />
+        <input type="button" value="Cancelar" />
+        <input type="button" value="Enviar" />
+      </fieldset>      
     </form>
   </body>
 </html>
